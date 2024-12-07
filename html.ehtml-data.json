@@ -5,52 +5,36 @@
             "name": "template",
             "attributes": [
                 {
-                    "name": "data-list-to-iterate"
+                    "name": "data-list-to-iterate",
+                    "description": "For 'e-for-each"
                 },
                 {
-                    "name": "data-item-name"
-                }
-            ],
-            "is": "e-for-each"
-        },
-        {
-            "name": "template",
-            "attributes": [
-                {
-                    "name": "data-condition-to-display"
-                }
-            ],
-            "is": "e-if"
-        },
-        {
-            "name": "template",
-            "attributes": [
-                {
-                    "name": "data-append-to"
+                    "name": "data-item-name",
+                    "description": "For 'e-for-each"
                 },
                 {
-                    "name": "data-prepend-to"
+                    "name": "data-condition-to-display",
+                    "description": "For 'e-if"
                 },
                 {
-                    "name": "data-insert-into"
-                }
-            ],
-            "is": "e-reusable"
-        },
-        {
-            "name": "template",
-            "attributes": [
+                    "name": "data-append-to",
+                    "description": "For 'e-reusable"
+                },
                 {
-                    "name": "data-url-pattern"
-                }
-            ],
-            "is": "e-page-with-url"
-        },
-        {
-            "name": "template",
-            "attributes": [
+                    "name": "data-prepend-to",
+                    "description": "For 'e-reusable"
+                },
                 {
-                    "name": "data-where-to-place"
+                    "name": "data-insert-into",
+                    "description": "For 'e-reusable"
+                },
+                {
+                    "name": "data-url-pattern",
+                    "description": "For 'e-page-with-url"
+                },
+                {
+                    "name": "data-where-to-place",
+                    "description": "For 'e-wrapper"
                 },
                 {
                     "name": "data-how-to-place",
@@ -67,31 +51,30 @@
                         {
                             "name": "inside"
                         }
-                    ]
+                    ],
+                    "description": "For 'e-wrapper"
                 },
                 {
-                    "name": "data-headers"
+                    "name": "data-headers",
+                    "description": "For 'e-wrapper"
+                },
+                {
+                    "name": "data-socket-name",
+                    "description": "For 'e-ws"
+                },
+                {
+                    "name": "data-connection-icon",
+                    "description": "For 'e-ws"
+                },
+                {
+                    "name": "data-actions-on-open-connections",
+                    "description": "For 'e-ws"
+                },
+                {
+                    "name": "data-actions-on-close-connection",
+                    "description": "For 'e-ws"
                 }
-            ],
-            "is": "e-wrapper"
-        },
-        {
-            "name": "template",
-            "attributes": [
-                {
-                    "name": "data-socket-name"
-                },
-                {
-                    "name": "data-connection-icon"
-                },
-                {
-                    "name": "data-actions-on-open-connections"
-                },
-                {
-                    "name": "data-actions-on-close-connection"
-                }
-            ],
-            "is": "e-ws"
+            ]
         },
         {
             "name": "e-json",

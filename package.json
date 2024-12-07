@@ -1,0 +1,17 @@
+{
+	"name": "ehtml-tools",
+	"description": "EHTML tools for VSCode",
+	"version": "0.0.1",
+	"publisher": "gdnacho",
+	"repository": "https://github.com/gdnacho/ehtml-tools",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"contributes": {
+		"html": {
+			"customData": [
+				"./html.ehtml-data.json"
+			]
+		}
+	}
+}

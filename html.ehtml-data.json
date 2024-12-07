@@ -1,0 +1,268 @@
+{
+    "version": 1.0,
+    "tags": [
+        {
+            "name": "template",
+            "attributes": [
+                {
+                    "name": "data-list-to-iterate"
+                },
+                {
+                    "name": "data-item-name"
+                }
+            ],
+            "is": "e-for-each"
+        },
+        {
+            "name": "template",
+            "attributes": [
+                {
+                    "name": "data-condition-to-display"
+                }
+            ],
+            "is": "e-if"
+        },
+        {
+            "name": "template",
+            "attributes": [
+                {
+                    "name": "data-append-to"
+                },
+                {
+                    "name": "data-prepend-to"
+                },
+                {
+                    "name": "data-insert-into"
+                }
+            ],
+            "is": "e-reusable"
+        },
+        {
+            "name": "template",
+            "attributes": [
+                {
+                    "name": "data-url-pattern"
+                }
+            ],
+            "is": "e-page-with-url"
+        },
+        {
+            "name": "template",
+            "attributes": [
+                {
+                    "name": "data-where-to-place"
+                },
+                {
+                    "name": "data-how-to-place",
+                    "valueSets": [
+                        {
+                            "name": "instead"
+                        },
+                        {
+                            "name": "before"
+                        },
+                        {
+                            "name": "after"
+                        },
+                        {
+                            "name": "inside"
+                        }
+                    ]
+                },
+                {
+                    "name": "data-headers"
+                }
+            ],
+            "is": "e-wrapper"
+        },
+        {
+            "name": "template",
+            "attributes": [
+                {
+                    "name": "data-socket-name"
+                },
+                {
+                    "name": "data-connection-icon"
+                },
+                {
+                    "name": "data-actions-on-open-connections"
+                },
+                {
+                    "name": "data-actions-on-close-connection"
+                }
+            ],
+            "is": "e-ws"
+        },
+        {
+            "name": "e-json",
+            "attributes": [
+                {
+                    "name": "data-cache-from"
+                }
+            ]
+        },
+        {
+            "name": "e-form-dynamic-value",
+            "attributes": [
+                {
+                    "name": "data-bound-to"
+                }
+            ]
+        },
+        {
+            "name": "e-local-storage-value",
+            "attributes": [
+                {
+                    "name": "data-key"
+                }
+            ]
+        },
+        {
+            "name": "e-session-storage-value",
+            "attributes": [
+                {
+                    "name": "data-key"
+                }
+            ]
+        },
+        {
+            "name": "e-github-oauth-button",
+            "attributes": [
+                {
+                    "name": "data-client-id"
+                },
+                {
+                    "name": "data-redirect-uri"
+                },
+                {
+                    "name": "data-scope"
+                }
+            ]
+        },
+        {
+            "name": "e-markdown",
+            "attributes": [
+                {
+                    "name": "data-apply-code-highlighting",
+                    "valueSets": [
+                        {
+                            "name": "true"
+                        }
+                    ]
+                },
+                {
+                    "name": "data-apply-latex",
+                    "valueSets": [
+                        {
+                            "name": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "attributes": [
+                {
+                    "name": "data-button-ajax-text"
+                },
+                {
+                    "name": "data-button-ajax-class"
+                }
+            ]
+        }
+    ],
+    "globalAttributes": [
+        {
+            "name": "data-no-ehtml",
+            "valueSets": [
+                {
+                    "name": "true"
+                }
+            ]
+        },
+        {
+            "name": "data-src"
+        },
+        {
+            "name": "data-socket"
+        },
+        {
+            "name": "data-request-headers"
+        },
+        {
+            "name": "data-response-name"
+        },
+        {
+            "name": "data-object-name"
+        },
+        {
+            "name": "data-actions-on-response"
+        },
+        {
+            "name": "data-actions-on-progress-start"
+        },
+        {
+            "name": "data-actions-on-progress-end"
+        },
+        {
+            "name": "data-download-response-body-as-file-with-name"
+        },
+        {
+            "name": "data-text"
+        },
+        {
+            "name": "data-value"
+        },
+        {
+            "name": "data-ajax-icon"
+        },
+        {
+            "name": "data-progress-bar"
+        },
+        {
+            "name": "data-upload-progress-bar"
+        },
+        {
+            "name": "data-request-url"
+        },
+        {
+            "name": "data-request-method",
+            "valueSets": [
+                {
+                    "name": "GET"
+                },
+                {
+                    "name": "POST"
+                },
+                {
+                    "name": "PUT"
+                },
+                {
+                    "name": "DELETE"
+                },
+                {
+                    "name": "PATCH"
+                }
+            ]
+        },
+        {
+            "name": "data-request-headers"
+        },
+        {
+            "name": "data-validation-pattern"
+        },
+        {
+            "name": "data-validation-error-class-for-element"
+        },
+        {
+            "name": "data-validation-error-class-for-message-box"
+        },
+        {
+            "name": "data-validation-bad-format-error-message"
+        },
+        {
+            "name": "data-validation-min-files-number"
+        }
+    ]
+}

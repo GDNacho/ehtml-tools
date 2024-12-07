@@ -6,35 +6,35 @@
             "attributes": [
                 {
                     "name": "data-list-to-iterate",
-                    "description": "For 'e-for-each"
+                    "description": "For 'e-for-each'"
                 },
                 {
                     "name": "data-item-name",
-                    "description": "For 'e-for-each"
+                    "description": "For 'e-for-each'"
                 },
                 {
                     "name": "data-condition-to-display",
-                    "description": "For 'e-if"
+                    "description": "For 'e-if'"
                 },
                 {
                     "name": "data-append-to",
-                    "description": "For 'e-reusable"
+                    "description": "For 'e-reusable'"
                 },
                 {
                     "name": "data-prepend-to",
-                    "description": "For 'e-reusable"
+                    "description": "For 'e-reusable'"
                 },
                 {
                     "name": "data-insert-into",
-                    "description": "For 'e-reusable"
+                    "description": "For 'e-reusable'"
                 },
                 {
                     "name": "data-url-pattern",
-                    "description": "For 'e-page-with-url"
+                    "description": "For 'e-page-with-url'"
                 },
                 {
                     "name": "data-where-to-place",
-                    "description": "For 'e-wrapper"
+                    "description": "For 'e-wrapper'"
                 },
                 {
                     "name": "data-how-to-place",
@@ -52,27 +52,27 @@
                             "name": "inside"
                         }
                     ],
-                    "description": "For 'e-wrapper"
+                    "description": "For 'e-wrapper'"
                 },
                 {
                     "name": "data-headers",
-                    "description": "For 'e-wrapper"
+                    "description": "For 'e-wrapper'"
                 },
                 {
                     "name": "data-socket-name",
-                    "description": "For 'e-ws"
+                    "description": "For 'e-ws'"
                 },
                 {
                     "name": "data-connection-icon",
-                    "description": "For 'e-ws"
+                    "description": "For 'e-ws'"
                 },
                 {
                     "name": "data-actions-on-open-connections",
-                    "description": "For 'e-ws"
+                    "description": "For 'e-ws'"
                 },
                 {
                     "name": "data-actions-on-close-connection",
-                    "description": "For 'e-ws"
+                    "description": "For 'e-ws'"
                 }
             ]
         },

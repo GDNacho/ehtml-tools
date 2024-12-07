@@ -4,6 +4,7 @@
 	"version": "0.0.1",
 	"publisher": "gdnacho",
 	"repository": "https://github.com/gdnacho/ehtml-tools",
+	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^1.63.0"
 	},

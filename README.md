@@ -14,7 +14,7 @@ ehtml-tools is a simple VSCode extension that provides developer experience tool
 ## Planned Features
 
 * Inline documentation for attributes (As soon as an EHTML reference exists)
-* Emmet shortcuts for common EHTML boilerplate
+* Snippers for common EHTML boilerplate
 
 ## Contributions
 

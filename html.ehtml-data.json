@@ -77,12 +77,20 @@
             ]
         },
         {
+            "name": "e-html",
+            "attributes": []
+        },
+        {
             "name": "e-json",
             "attributes": [
                 {
                     "name": "data-cache-from"
                 }
             ]
+        },
+        {
+            "name": "e-form",
+            "attributes": []
         },
         {
             "name": "e-form-dynamic-value",
@@ -123,6 +131,14 @@
             ]
         },
         {
+            "name": "e-select",
+            "attributes": []
+        },
+        {
+            "name": "e-svg",
+            "attributes": []
+        },
+        {
             "name": "e-markdown",
             "attributes": [
                 {
@@ -142,6 +158,10 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "e-json-view",
+            "attributes": []
         },
         {
             "name": "button",

@@ -2,238 +2,162 @@
     "EHTML e-html": {
         "prefix": "e_html",
         "body": [
-            "<e-html",
-            "data-src=\"${1}\"",
-            "></e-html>"
-        ],
-        "description": ""
+            "<e-html data-src=\"${1}\"></e-html>"
+        ]
     },
     "EHTML e-json": {
         "prefix": "e_json",
         "body": [
             "<e-json",
-            "data-src=\"${1}\"",
-            "data-response-name=\"${2}\"",
-            "data-actions-on-response=\"${3}\"",
-            ">",
-            "${0}",
+            "\tdata-src=\"${1}\"",
+            "\tdata-response-name=\"${2}\"",
+            "\tdata-actions-on-response=\"${3}\">",
+            "\t${0}",
             "</e-json>"
-        ],
-        "description": ""
+        ]
     },
     "EHTML e-form": {
         "prefix": "e_form",
         "body": [
             "<e-form>",
-            "<button",
-            "data-request-url=\"${1}\"",
-            "data-request-method=\"${2}\"",
-            "data-request-headers=\"${3}\"",
-            "data-response-name=\"${4}\"",
-            "onclick=\"this.form.submit(this)\"",
-            "data-actions-on-response=\"${5}\"",
-            "></button>",
+            "\t<button",
+            "\t\tdata-request-url=\"${1}\"",
+            "\t\tdata-request-method=\"${2}\"",
+            "\t\tdata-request-headers=\"${3}\"",
+            "\t\tdata-response-name=\"${4}\"",
+            "\t\tonclick=\"this.form.submit(this)\"",
+            "\t\tdata-actions-on-response=\"${5}\"",
+            "\t></button>",
             "</e-form>"
-        ],
-        "description": ""
+        ]
     },
     "EHTML e-form-dynamic-value": {
         "prefix": "e_fromdv",
         "body": [
-            "<e-form-dynamic-value",
-            "name=\"${1}\"",
-            "data-bound-to=\"${2}\"",
-            "></e-form-dynamic-value>"
-        ],
-        "description": ""
+            "<e-form-dynamic-value name=\"${1}\" data-bound-to=\"${2}\"></e-form-dynamic-value>"
+        ]
     },
     "EHTML e-local-storage-value": {
         "prefix": "e_localv",
         "body": [
-            "<e-local-storage-value",
-            "name=\"${1}\"",
-            "data-key=\"${2}\"",
-            "></e-local-storage-value>"
-        ],
-        "description": ""
+            "<e-local-storage-value name=\"${1}\" data-key=\"${2}\"></e-local-storage-value>"
+        ]
     },
     "EHTML e-local-session-value": {
         "prefix": "e_sessionv",
         "body": [
-            "<e-local-session-value",
-            "name=\"${1}\"",
-            "data-key=\"${2}\"",
-            "></e-local-session-value>"
-        ],
-        "description": ""
+            "<e-local-session-value name=\"${1}\" data-key=\"${2}\"></e-local-session-value>"
+        ]
     },
     "EHTML e-github-oauth-button": {
         "prefix": "e_github",
         "body": [
             "<e-github-oauth-button",
-            "data-client-id=\"${1}\"",
-            "data-redirect-uri=\"${2}\"",
-            "data-scope=\"${3}\"",
-            ">",
-            "${0}",
+            "\tdata-client-id=\"${1}\"",
+            "\tdata-redirect-uri=\"${2}\"",
+            "\tdata-scope=\"${3}\">",
+            "\t${0}",
             "</e-github-oauth-button>"
-        ],
-        "description": ""
+        ]
     },
     "EHTML e-select": {
         "prefix": "e_select",
         "body": [
-            "<e-select",
-            "name=\"${1}\"",
-            "value=\"${2}\"",
-            ">",
-            "${0}",
-            "</e-select>"
-        ],
-        "description": ""
+            "<e-select name=\"${1}\" value=\"${2}\">${0}</e-select>"
+        ]
     },
     "EHTML e-svg": {
         "prefix": "e_svg",
         "body": [
-            "<e-svg",
-            "data-src=\"${1}\"",
-            "></e-svg>"
-        ],
-        "description": ""
+            "<e-svg data-src=\"${1}\"></e-svg>"
+        ]
     },
     "EHTML e-markdown": {
         "prefix": "e_md",
         "body": [
-            "<e-markdown",
-            "data-src=\"${1}\"",
-            "></e-svg>"
-        ],
-        "description": ""
+            "<e-markdown data-src=\"${1}\"></e-svg>"
+        ]
     },
     "EHTML e-json-view": {
         "prefix": "e_jsonv",
         "body": [
-            "<e-json-view",
-            "data-src=\"${1}\"",
-            "></e-json-view>"
-        ],
-        "description": ""
+            "<e-json-view data-src=\"${1}\"></e-json-view>"
+        ]
     },
     "EHTML template e-json": {
         "prefix": "e_t_json",
         "body": [
-            "<template",
-            "is=\"e-json\"",
-            "data-src=\"${1}\"",
-            "data-object-name=\"${2}\"",
-            "data-actions-on-response=\"${3}\"",
-            ">",
-            "${0}",
-            "</template>"
-        ],
-        "description": ""
+            "<template is=\"e-json\" data-src=\"${1}\" data-object-name=\"${2}\">${0}</template>"
+        ]
     },
     "EHTML template e-for-each": {
         "prefix": "e_t_foreach",
         "body": [
-            "<template",
-            "is=\"e-for-each\"",
-            "data-list-to-iterate=\"${1}\"",
-            "data-item-name=\"${2}\"",
-            ">",
-            "${0}",
-            "</template>"
-        ],
-        "description": ""
+            "<template is=\"e-for-each\" data-list-to-iterate=\"${1}\" data-item-name=\"${2}\">${0}</template>"
+        ]
     },
     "EHTML template e-if": {
         "prefix": "e_t_if",
         "body": [
-            "<template",
-            "is=\"e-if\"",
-            "data-condition-to-display=\"${1}\"",
-            ">",
-            "${0}",
-            "</template>"
-        ],
-        "description": ""
+            "<template is=\"e-if\" data-condition-to-display=\"${1}\">${0}</template>"
+        ]
     },
     "EHTML template e-reusable": {
         "prefix": "e_t_reuseable",
         "body": [
-            "<template",
-            "id=\"${1}\"",
-            "is=\"e-reusable\"",
-            "data-object-name=\"${2}\"",
-            ">",
-            "${0}",
-            "</template>"
-        ],
-        "description": ""
+            "<template is=\"e-reusable\" id=\"${1}\" data-object-name=\"${2}\">${0}</template>"
+        ]
     },
     "EHTML template e-page-with-url": {
         "prefix": "e_t_pageurlparams",
         "body": [
-            "<template",
-            "is=\"e-page-with-url\"",
-            "data-url-pattern=\"${1}\"",
-            ">",
-            "${0}",
-            "</template>"
-        ],
-        "description": ""
+            "<template is=\"e-page-with-url\" data-url-pattern=\"${1}\">${0}</template>"
+        ]
     },
     "EHTML template e-wrapper": {
         "prefix": "e_t_wrapper",
         "body": [
             "<template",
-            "is=\"e-wrapper\"",
-            "data-src=\"${1}\"",
-            "data-where-to-place=\"${2}\"",
-            "data-how-to-place=\"${3}\"",
-            ">",
-            "${0}",
+            "\tis=\"e-wrapper\"",
+            "\tdata-src=\"${1}\"",
+            "\tdata-where-to-place=\"${2}\"",
+            "\tdata-how-to-place=\"${3}\">",
+            "\t${0}",
             "</template>"
-        ],
-        "description": ""
+        ]
     },
     "EHTML template e-ws": {
         "prefix": "e_t_ws",
         "body": [
             "<template",
-            "is=\"e-ws\"",
-            "data-src=\"${1}\"",
-            "data-socket-name=\"${2}\"",
-            "data-actions-on-open-connection=\"${3}\"",
-            ">",
-            "${0}",
+            "\tis=\"e-ws\"",
+            "\tdata-src=\"${1}\"",
+            "\tdata-socket-name=\"${2}\"",
+            "\tdata-actions-on-open-connection=\"${3}\">",
+            "\t${0}",
             "</template>"
-        ],
-        "description": ""
+        ]
     },
     "EHTML:WS template e-json": {
         "prefix": "e_t_wsjson",
         "body": [
             "<e-json",
-            "data-socket=\"${1}\"",
-            "data-response-name=\"${2}\"",
-            "data-actions-on-response=\"${3}\"",
-            ">",
-            "${0}",
+            "\tdata-socket=\"${1}\"",
+            "\tdata-response-name=\"${2}\"",
+            "\tdata-actions-on-response=\"${3}\">",
+            "\t${0}",
             "</e-json>"
-        ],
-        "description": ""
+        ]
     },
     "EHTML:WS template e-form": {
         "prefix": "e_t_wsform",
         "body": [
             "<e-form>",
-            "<button",
-            "data-socket=\"${1}\"",
-            "onclick=\"this.form.submit(this)\"",
-            "></button>",
+            "\t<button",
+            "\t\tdata-socket=\"${1}\"",
+            "\t\tonclick=\"this.form.submit(this)\"",
+            "\t></button>",
             "</e-form>"
-        ],
-        "description": ""
+        ]
     }
 }

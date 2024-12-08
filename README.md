@@ -14,8 +14,8 @@ ehtml-tools is a simple VSCode extension that provides developer experience tool
 
 
 ### Snippets:
-![image](https://github.com/user-attachments/assets/931c665a-3e68-45ec-aae8-65b1685de312)
-![image](https://github.com/user-attachments/assets/96ef7dc1-61a9-48d9-9076-2ec2c79e1420)
+![image](https://github.com/user-attachments/assets/74194c62-ef58-4fb3-b3c3-36f48250d750)
+![image](https://github.com/user-attachments/assets/3d77428c-0825-4298-badc-9d9cc9db9fdb)
 
 
 ## Planned Features

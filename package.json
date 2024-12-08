@@ -1,7 +1,7 @@
 {
 	"name": "ehtml-tools",
 	"description": "EHTML tools for VSCode",
-	"version": "0.0.22",
+	"version": "0.0.23",
 	"publisher": "gdnacho",
 	"repository": "https://github.com/gdnacho/ehtml-tools",
 	"icon": "images/icon.png",

@@ -1,0 +1,124 @@
+e_html
+<e-html data-src="${1}"></e-html>
+
+
+e_json
+<e-json
+    data-src="${1}"
+    data-response-name="${2}"
+    data-actions-on-response="${3}">
+
+    ${0}
+</e-json>
+
+
+e_form
+<e-form>
+    <button
+    data-request-url="${1}"
+    data-request-method="${2}"
+    data-request-headers="${3}"
+    data-response-name="${4}"
+    onclick="this.form.submit(this)"
+    data-actions-on-response="${5}"
+    ></button>
+</e-form>
+
+
+e_fromdv
+<e-form-dynamic-value name="${1}" data-bound-to="${2}"></e-form-dynamic-value>
+
+
+e_localv
+<e-local-storage-value name="${1}" data-key="${2}"></e-local-storage-value>
+
+
+e_sessionv
+<e-local-session-value name="${1}" data-key="${2}"></e-local-session-value>
+
+
+e_github
+<e-github-oauth-button
+    data-client-id="${1}"
+    data-redirect-uri="${2}"
+    data-scope="${3}">
+    
+    ${0}
+</e-github-oauth-button>
+
+
+e_select
+<e-select name="${1}" value="${2}">${0}</e-select>
+
+
+e_svg
+<e-svg data-src="${1}"></e-svg>
+
+
+e_md
+<e-markdown data-src="${1}"></e-svg>
+
+
+e_jsonv
+<e-json-view data-src="${1}"></e-json-view>
+
+
+e_t_json
+<template is="e-json" data-src="${1}" data-object-name="${2}">${0}</template>
+
+
+e_t_foreach
+<template is="e-for-each" data-list-to-iterate="${1}" data-item-name="${2}">${0}</template>
+
+
+e_t_if
+<template is="e-if" data-condition-to-display="${1}">${0}</template>
+
+
+e_t_reuseable
+<template id="${1}" is="e-reusable" data-object-name="${2}">${0}</template>
+
+
+e_t_pageurlparams
+<template is="e-page-with-url" data-url-pattern="${1}">${0}</template>
+
+
+e_t_wrapper
+<template
+    is="e-wrapper" 
+    data-src="${1}" 
+    data-where-to-place="${2}" 
+    data-how-to-place="${3}">
+    
+    ${0}
+</template>
+
+
+e_t_ws
+<template 
+    is="e-ws" 
+    data-src="${1}" 
+    data-socket-name="${2}"
+    data-actions-on-open-connection="${3}">
+    
+    ${0}
+</template>
+
+
+e_t_wsjson
+<e-json
+    data-socket="${1}"
+    data-response-name="${2}"
+    data-actions-on-response="${3}">
+    
+    ${0}
+</e-json>
+
+
+e_t_wsform
+<e-form>
+    <button
+    data-socket="${1}"
+    onclick="this.form.submit(this)"
+    ></button>
+</e-form>

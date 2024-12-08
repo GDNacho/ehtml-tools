@@ -1,7 +1,7 @@
 {
 	"name": "ehtml-tools",
 	"description": "EHTML tools for VSCode",
-	"version": "0.0.13",
+	"version": "0.0.2",
 	"publisher": "gdnacho",
 	"repository": "https://github.com/gdnacho/ehtml-tools",
 	"icon": "images/icon.png",
@@ -13,6 +13,13 @@
 			"customData": [
 				"./html.ehtml-data.json"
 			]
-		}
+		},
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./html.ehtml-snippets.json"
+			}
+		],
+		"editor.suggest.triggerCharacters": ["+"]
 	}
 }
